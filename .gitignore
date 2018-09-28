@@ -1,0 +1,6 @@
+.*
+!.gitignore
+*.png
+*.raw
+**/__pycache__
+**/*.pyc
