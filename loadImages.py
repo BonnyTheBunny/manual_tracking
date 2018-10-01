@@ -7,7 +7,7 @@ from PyQt5 import QtWidgets
 
 
 if __name__ == '__main__':
-    ezdata = QtWidgets.QApplication(sys.argv)
+    app = QtWidgets.QApplication(sys.argv)
     main_window = main.Main()
     main_window.show()
-    sys.exit(ezdata.exec_())
+    sys.exit(app.exec_())
